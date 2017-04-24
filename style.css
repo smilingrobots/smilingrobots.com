@@ -17,6 +17,9 @@ h1, h2, h3, h4, h5, h6 {
 p:first-child {
     margin-top: 0;
 }
+a, a:visited {
+    color: blue;
+}
 
 .page-header {
     display: block;
@@ -60,6 +63,12 @@ p:first-child {
 
 .main-container {
     padding: 24pt 16pt;
+}
+
+.page-footer {
+    padding-top: 64pt;
+    font-size: 0.9em;
+    text-align: center;
 }
 
 @media (min-width: 768px) {
