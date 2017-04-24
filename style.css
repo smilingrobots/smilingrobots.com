@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    // font-family: 'Asap', sans-serif;
+    // font-family: 'Lora', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+p:first-child {
+    margin-top: 0;
+}
+
+.page-header {
+    display: block;
+    overflow: hidden;
+    padding: 32pt;
+    position: relative;
+}
+.page-header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.page-header .page-title {
+    font-family: 'Roboto', sans-serif;
+}
+.page-header .page-title .home-link,
+.page-header .page-title h1 {
+    padding: 8pt 16pt;
+    font-size: 2.2em;
+}
+.page-header .page-title h1 {
+    background: white;
+    color: black;
+    display: inline-block;
+    margin: 0;
+}
+.page-header .page-title .home-link {
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.page-header .page-title .home-link:hover {
+    background: rgba(255,255,255,0.3);
+    color: black;
+}
+
+.main-container {
+    padding: 24pt 16pt;
+}
+
+@media (min-width: 768px) {
+    .page-header {
+        padding-top: 64pt;
+        padding-left: 48pt;
+        padding-right: 48pt;
+        padding-bottom: 48pt;
+    }
+    .main-container {
+        padding: 48pt 48pt 32pt;
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-header {
+        padding: 96pt 48pt 48pt;
+    }
+    .page-header .page-title .home-link,
+    .page-header .page-title h1 {
+        font-size: 3em;
+    }
+    .main-container {
+        padding: 48pt 96pt 32pt;
+    }
+}
