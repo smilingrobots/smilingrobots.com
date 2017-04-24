@@ -71,6 +71,17 @@ a, a:visited {
     text-align: center;
 }
 
+.screenshots {
+    overflow: hidden;
+}
+.screenshots img {
+    border: 1px solid #BBB;
+    box-sizing: border-box;
+    float: left;
+    width: 46%;
+    margin: 0 1%;
+}
+
 @media (min-width: 768px) {
     .page-header {
         padding-top: 64pt;
