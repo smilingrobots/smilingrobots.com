@@ -66,8 +66,8 @@ a, a:visited {
 }
 
 .page-footer {
-    padding-top: 64pt;
-    font-size: 0.9em;
+    padding: 48pt 0 24pt;
+    font-size: 0.8em;
     text-align: center;
 }
 
