@@ -4,12 +4,10 @@
             alt="{{ site.tagline }}" />
     <div class="page-title">
         {% if page.layout == 'page' %}
-        <a class="home-link" href="{{ site.url }}">SR</a><h1>{{ page.title }}</h1>
+        <a class="home-link" href="{{ "/" | relative_url }}">SR</a><h1>{{ page.title }}</h1>
         {% else %}
         <h1>{{ site.title }}</h1>
         {% endif %}
     </div>
-
-    
 </header>
 
