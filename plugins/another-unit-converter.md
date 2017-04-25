@@ -10,7 +10,7 @@ It is the easiest way to do currency conversions in your website, allowing visit
 <img src="{{ "assets/screenshot-2.png" | relative_url }}" />
 </div>
 
-If you want to offer your visitors friendly and "on the fly" currency conversion on posts and pages, Another Currency Converter has your back. Supporting more than 160 different world currencies, this plugin gives your visitors the chance to read your posts and pages with amounts displayed in their local or preferred currency, increasing familiarity and improving their understanding of your content.
+If you want to offer your visitors friendly and "on the fly" currency conversion on posts and pages, Another Unit Converter has your back. Supporting more than 160 different world currencies, this plugin gives your visitors the chance to read your posts and pages with amounts displayed in their local or preferred currency, increasing familiarity and improving their understanding of your content.
 
 Another Unit Converter also does conversions a different way, no widgets or page reloads involved: it automatically looks for currency amounts within the content of your posts so you don't have to worry about using special formats or shortcodes at all. Just freely write your text mentioning any currencies you like, we do the hard work.
 
@@ -28,20 +28,3 @@ Another Unit Converter features include:
 - Fully compatible with WordPress internationalization features.
 
 <a href="https://wordpress.org/plugins/another-unit-converter">Download from WordPress.org</a>
-
-<!--
-<!DOCTYPE html>
-           <div class="page-title">
-                <a class="home-link" href="https://wvega.github.io/smilingrobots.com/">SR</a><h1>Another Unit Converter</h1>
-            </div>
-        </header>
-        <div class="main-container">
-                <h2>Another Unit Converter</h2>
-
-                <a href="https://wordpress.org/plugins/another-unit-converter">Download from WordPress.org</a>
-            </article>
-        </div>
-        <footer class="page-footer"><a href="mailto:hello@smilingrobots.com">hello@smilingrobots.com</a></footer>
-    </body>
-</html>
--->
