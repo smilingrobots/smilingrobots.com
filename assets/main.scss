@@ -136,6 +136,9 @@ a, a:visited {
         opacity: 0.7;
         margin: 7pt 0;
         width: 100%;
+        display: block;
+        overflow: auto;
+        zoom: 1;
 
         img {
             width: 60px;
@@ -161,7 +164,7 @@ a, a:visited {
 
         .member {
             float: left;
-            width: 25%;
+            width: 50%;
         }
     }
 }
