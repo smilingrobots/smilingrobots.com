@@ -1,0 +1,178 @@
+---
+---
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    // font-family: 'Asap', sans-serif;
+    // font-family: 'Lora', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.icon {
+    text-decoration: none;
+    
+    > svg {
+        fill: #828282;
+    }
+}
+
+p:first-child {
+    margin-top: 0;
+}
+a, a:visited {
+    color: blue;
+}
+
+.page-header {
+    display: block;
+    overflow: hidden;
+    padding: 32pt;
+    position: relative;
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+
+    .page-title {
+        font-family: 'Roboto', sans-serif;
+
+        .home-link, h1 {
+            padding: 8pt 16pt;
+            font-size: 2.2em;
+        }
+
+        h1 {
+            background: white;
+            color: black;
+            display: inline-block;
+            margin: 0;
+        }
+
+        .home-link {
+            background: black;
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+
+            &:hover {
+                background: rgba(255,255,255,0.3);
+                color: black;
+            }
+        }
+    }
+}
+
+.main-container {
+    padding: 24pt 16pt;
+}
+
+.page-footer {
+    padding: 48pt 0 24pt;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.screenshots {
+    overflow: hidden;
+
+    img {
+        border: 1px solid #BBB;
+        box-sizing: border-box;
+        float: left;
+        width: 46%;
+        margin: 0 1%;
+    }
+}
+
+@media (min-width: 768px) {
+    .page-header {
+        padding-top: 64pt;
+        padding-left: 48pt;
+        padding-right: 48pt;
+        padding-bottom: 48pt;
+    }
+    .main-container {
+        padding: 48pt 48pt 32pt;
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-header {
+        padding: 96pt 48pt 48pt;
+
+        .page-title .home-link,
+        .page-title h1 {
+            font-size: 3em;
+        }
+    }
+
+    .main-container {
+        padding: 48pt 96pt 32pt;
+    }
+}
+
+#members {
+    overflow: auto;
+    zoom: 1;
+    margin: 3.5em auto 0;
+    width: 100%;
+
+    .member {
+        opacity: 0.7;
+        margin: 7pt 0;
+        width: 100%;
+
+        img {
+            width: 60px;
+            float: left;
+            border-radius: 50%;
+            margin-right: 15pt;
+        }
+
+        span.name {
+            display: block;
+            margin: 3pt 0;
+        }
+
+        &:hover {
+            opacity: 1.0;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    #members {
+        width: 90%;
+
+        .member {
+            float: left;
+            width: 25%;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    #members {
+        width: 80%;
+
+        .member {
+            float: left;
+            width: 33.33%;
+        }
+    }
+}
