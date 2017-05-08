@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   We don't like sad robots
 tagline: We don't like sad robots
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://smilingrobots.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: smilingrobots
 
 # Build settings
