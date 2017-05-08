@@ -1,5 +1,6 @@
 ---
 layout: home
+description: We are a team of WordPress developers based in Medellín, Colombia.
 ---
 
 We are a team of WordPress developers based in Medellín, Colombia. Creators of [Another Unit Converter WordPress plugin]({% link plugins/another-unit-converter.md %}).

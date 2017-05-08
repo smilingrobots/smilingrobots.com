@@ -16,8 +16,8 @@
 title: Smiling Robots
 email: hello@smilingrobots.com
 description: > # this means to ignore newlines until "baseurl:"
-  We don't like sad robots.
-tagline: We don't like sad robots.
+  We don't like sad robots
+tagline: We don't like sad robots
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: smilingrobots
@@ -28,3 +28,8 @@ markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Plugins
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap

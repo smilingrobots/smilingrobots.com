@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Donate
+description: If you like Smiling Robots products, please consider sending a donation :)
 ---
 
 ## Help us create more awesome products!
