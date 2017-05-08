@@ -1,6 +1,10 @@
 ---
 layout: page
 title: Another Unit Converter
+description: Another Unit Converter is the easiest way to do currency conversions in your WordPress website, allowing visitors to see amounts on their preferred currency.
+seo:
+  links:
+    - https://wordpress.org/plugins/another-unit-converter/
 ---
 
 It is the easiest way to do currency conversions in your website, allowing visitors to see amounts on their preferred currency.

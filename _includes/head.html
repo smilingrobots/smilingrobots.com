@@ -1,9 +1,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
     <link href="https://fonts.googleapis.com/css?family=Lora:700|Roboto:900|Rubik" rel="stylesheet">
     <meta name="google-site-verification" content="FYfPt9nmoPnd55lxvYhx--G0PgsrEFFR61u9DPgFb60" />
+    {% seo seo=false %}
 </head>
